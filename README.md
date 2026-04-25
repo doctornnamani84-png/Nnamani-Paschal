@@ -73,8 +73,8 @@
 
   <nav>
     <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
   </nav>
 
   <section>
