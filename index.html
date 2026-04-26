@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P & F Veterinary Services</title>
+  <style>
+    * {
+		margin: 0; 
+		padding: 3px; 
+		box-sizing: border-box;
+	}
+    body {
+		font-family: Arial, sans-serif;
+		line-height: 1.6; 
+		color: #333;
+	}
+    header {
+		background: #0a6b4a; 
+		color: white; 
+		padding: 2.5rem 1rem; 
+		text-align: center;
+	}
+    header h1 {
+		font-size: 2rem; 
+		margin-bottom: .5rem;
+	}
+    .tagline {
+		font-size: 1.1rem; 
+		opacity: .9;
+	}
+    nav {
+		background: #084e36; 
+		padding: .8rem; 
+		text-align: center;
+	}
+    nav a {
+		color: white; 
+		text-decoration: none; 
+		margin: 0 1rem; 
+		font-weight: bold;
+	}
+    section {
+		padding: 2.5rem 1rem;
+		max-width: 1000px; 
+		margin: auto;
+	}
+    h2 {
+		color: #0a6b4a; 
+		margin-bottom: 1.5rem; 
+		text-align: center;
+		display:flex;
+		height:50px;
+		justify-content:center;
+		gap:50px;
+		box-shadow:5px 5px 5px black;
+		background-color:gray;
+	}
+    .services {
+		display: grid; 
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;
+	}
+    .card {
+		background: #f5f5f5; 
+		padding: 2rem; 
+		border-radius: 8px;
+		text-align: center;
+	}
+    .btn {
+		display: inline-block; 
+		background: #0a6b4a;
+		color: white; 
+		padding: .8rem 1.5rem;
+		border-radius: 6px; 
+		text-decoration: none; 
+		margin: .5rem;
+		display:flex;
+		height:50px;
+		justify-content:center;
+		gap:50px;
+		box-shadow:5px 5px 5px black;
+		background-color:green;
+	}
+    footer {
+		background: #222;
+		color: #aaa; text-align: center; 
+		padding: 1rem; 
+		font-size: .9rem;
+		margin-top: 2rem;
+	}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>P & F Veterinary Services</h1>
+    <div class="tagline">General Pet Care • Livestock Health • Agro Consultancy</div>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <marquee><b>Our Core Services</b></marquee>
+    <div class="services">
+      <div class="card">
+        <h2>Pet Care</h2>
+        <p>Vaccination, deworming, treatment, surgery, grooming & nutrition advice for dogs, cats, and other pets.</p>
+      </div>
+      <div class="card">
+        <h2>Livestock Health</h2>
+        <p>Farm visits, disease control, herd health programs for poultry, cattle, goats, pigs.</p>
+      </div>
+      <div class="card">
+        <h2>Agro Business</h2>
+        <p>Animal feeds, farm setup consultancy, livestock supply & agro-inputs.</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:2rem;">
+      <a href="contact.html" class="btn">Book a Visit</a>
+      <a href="about.html" class="btn">Learn More About Us</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 P & F Veterinary Services. Enugu, Nigeria.
+  </footer>
+</body>
+</html>
